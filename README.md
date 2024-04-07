@@ -1,8 +1,6 @@
-# MiniAgents: A Visualization Interface for Simulacra
+# MiniAgents: A Visualization Interface for Simulacra (Still Work-in-progress)
 
-<img src="./figs/title.jpg" width="250">
-
-![](./figs/title.jpg)
+<img src="./figs/title.jpg" width="600">
 
 The MiniAgents visualization tool for simulacra.
 
@@ -47,7 +45,9 @@ I put a lot of comments in backend.py to explain things.
 
 You can edit the sectors, areas, and items in the map. Press Esc to see the main menu, especially buttons for map editting.
 
-Below, I show how to draw the grids (which is a rectangle) for a new sector.
+Below, I show how to draw the grids (which is a rectangle) for a new sector. Remember to use the SaveMap Button after your editting.
 
-![](https://github.com/cloudygoose/MiniAgents/figs/mapeditting.gif)
+<img src="./figs/mapeditting.gif" width="600">
+
+Please make sure there is at least one item in each sector or area.
 
