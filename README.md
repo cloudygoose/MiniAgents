@@ -1,5 +1,7 @@
 # MiniAgents: A Visualization Interface for Simulacra
 
+<img src="./figs/title.jpg" width="250">
+
 ![](./figs/title.jpg)
 
 The MiniAgents visualization tool for simulacra.
