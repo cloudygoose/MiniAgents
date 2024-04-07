@@ -10,11 +10,13 @@ Author: Tianxing He (https://cloudygoose.github.io/)
 
 ## Quick start
 
-Download MiniAgent.app from the following shared google folder and put it in the repo folder (same folder as this README file).
+Important: Please download this repo to the path ~/Documents/MiniAgents . I'm sorry for the inconvenience, somehow it is hard for a unity-complied game to get its current path.
+
+Download MiniAgent.app from the following shared google folder and put it in the repo folder (same folder as this README file, like ~/Documents/MiniAgents/MiniAgents_build.app).
 
 https://drive.google.com/drive/u/1/folders/1NR30Trp3TqmDPl_dTU7FN660KpR0U-Od
 
-I have put the map files and a random-simulation trajectory files in ./run0/ , so you should be able to directly run. Just click the app file open and click the "Go!" button.
+I have put the map files in ./ and 20 steps of random-simulation trajectory files in ./run0/ , so you should be able to directly run. Just click the app file open and click the "Go!" button.
 
 ## Run your own simulation
 
