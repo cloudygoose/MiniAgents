@@ -34,6 +34,12 @@
 "UI_Sector11:Name":"Restaurant\n",
 "UI_Sector11:Draw":"65.000_82.000_82.000_66.000",
 "UI_Sector11:Position":"73.594_66.969",
+"UI_Sector12:Name":"School\n",
+"UI_Sector12:Draw":"90.000_88.000_121.000_66.000",
+"UI_Sector12:Position":"99.313_72.922",
+"UI_Sector13:Name":"School_Playground\n",
+"UI_Sector13:Draw":"121.000_66.000_98.000_72.000",
+"UI_Sector13:Position":"103.531_67.750",
 "UI_Item0:Name":"picnic table",
 "UI_Item0:Position":"31.960_56.340",
 "UI_Item1:Name":"swing",
@@ -119,4 +125,8 @@
 "UI_Item41:Name":"bar",
 "UI_Item41:Position":"77.891_77.500",
 "UI_Item42:Name":"beer shelf",
-"UI_Item42:Position":"78.313_80.156"}
+"UI_Item42:Position":"78.313_80.156",
+"UI_Item43:Name":"table",
+"UI_Item43:Position":"109.531_69.297",
+"UI_Item44:Name":"table",
+"UI_Item44:Position":"97.484_79.531"}
