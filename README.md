@@ -1,6 +1,6 @@
 # MiniAgents: A Visualization Interface for Simulacra
 
-![](https://github.com/cloudygoose/MiniAgents/figs/title.jpg)
+![](./figs/title.jpg)
 
 The MiniAgents visualization tool for simulacra.
 
