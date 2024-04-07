@@ -1,0 +1,22 @@
+{
+    "NPCNames": "John_Minnie_Mickle_Lu_Guu_Peter",
+    "BackEndMessage": "Back End Step: 0",
+    "John:Path": "30.500_56.500",
+    "John:SpeedMul": "2.0",
+    "John:Message": "step 0 start",
+    "Minnie:Path": "43.500_73.500",
+    "Minnie:SpeedMul": "2.0",
+    "Minnie:Message": "step 0 start",
+    "Mickle:Path": "18.500_73.500",
+    "Mickle:SpeedMul": "2.0",
+    "Mickle:Message": "step 0 start",
+    "Lu:Path": "33.500_79.500",
+    "Lu:SpeedMul": "2.0",
+    "Lu:Message": "step 0 start",
+    "Guu:Path": "47.500_75.500",
+    "Guu:SpeedMul": "2.0",
+    "Guu:Message": "step 0 start",
+    "Peter:Path": "46.500_52.500",
+    "Peter:SpeedMul": "2.0",
+    "Peter:Message": "step 0 start"
+}

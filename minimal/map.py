@@ -27,7 +27,7 @@ class Map:
     map_path = os.path.join(path, "map_save.json")
     self.loadMap(map_path)
 
-  def getPath(self, cxy_s, cxy_t):
+  def getPath(self, cxy_s, cxy_t, add_random = False):
     path = [cxy_t]; g = self.grid;
     xy_now = self.getTile(cxy_t).xy
     xy_s = self.getTile(cxy_s).xy
@@ -35,12 +35,19 @@ class Map:
       xy_now = g[xy_s].path[xy_now]
       if (xy_now != xy_s):
         path = [g[xy_now].cxy] + path
+        if add_random and random.random() < 0.1:
+          xy_mov = random.choice([(-1,0), (1,0), (0,1), (0,-1)])
+          xy_new = (xy_now[0] + xy_mov[0], xy_now[1] + xy_mov[1])
+          if xy_new != xy_s and g[xy_new].can_walk:
+            path = [g[xy_new].cxy] + path
+            #print('random', xy_now, xy_new)
+            xy_now = xy_new
     path = [cxy_s] + path
     return path
   
   def getTile(self, c):
     return self.grid[math.floor(c[0]), math.floor(c[1])]
-
+  
   def getCloseTile(self, c, add_random = False, condition = "can_walk"):
     assert(condition == "can_walk")
     rand_thres = 0.5 if add_random else 1.0;

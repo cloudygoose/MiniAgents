@@ -29,7 +29,7 @@ if __name__ == "__main__":
     parser.add_argument('--clear_dir', action='store_true') #remove files already in the dir, useful if you are doing online communication with the unity front end
     parser.add_argument('--step_num', type=int, default = 20)
     parser.add_argument('--step_wait', type=float, default = 0) #mimic that there some processing time for each time
-    parser.add_argument('--unit_num_per_step', default = 15) #how many tile units you allow your agent to move in one step (you can vary it for each agent, does not need to be the same)
+    #parser.add_argument('--unit_num_per_step', default = 15) #(deprecated) how many tile units you allow your agent to move in one step (you can vary it for each agent, does not need to be the same)
 
     args = parser.parse_args()
     
@@ -58,22 +58,23 @@ if __name__ == "__main__":
     if (1 == 1):
         npcs += [MyStruct(name = "Minnie", tile_cur = None, item_cur = None)]
         npcs += [MyStruct(name = "Mickle", tile_cur = None, item_cur = None)]
-
-    if (1 == 1):
         npcs += [MyStruct(name = "Lu", tile_cur = None, item_cur = None)]
         npcs += [MyStruct(name = "Guu", tile_cur = None, item_cur = None)]
-        npcs += [MyStruct(name = "Alta", tile_cur = None, item_cur = None)]
         npcs += [MyStruct(name = "Peter", tile_cur = None, item_cur = None)]
-        #npcs += [MyStruct(name = "Popcorn", tile_cur = None, item_cur = None)]
-        #npcs += [MyStruct(name = "Bro", tile_cur = None, item_cur = None)]
+
+    if (1 == 0): #you can add any number of npc you want
+        npcs += [MyStruct(name = "Alta", tile_cur = None, item_cur = None)]
+        npcs += [MyStruct(name = "Popcorn", tile_cur = None, item_cur = None)]
+        npcs += [MyStruct(name = "Bro", tile_cur = None, item_cur = None)]
         npcs += [MyStruct(name = "Samo", tile_cur = None, item_cur = None)]
         npcs += [MyStruct(name = "Oba", tile_cur = None, item_cur = None)]
         npcs += [MyStruct(name = "Julia", tile_cur = None, item_cur = None)]
 
     assert(len(set([npc.name for npc in npcs])) == len(npcs))
+    #below is a random message set, just add diversity to this random simulation
     message_set = ['good idea', 'it is so exciting', 'remember to walk the dog']
-    message_set += ["1SAME1"] * 6; message_set += [""] * 3;
-    #1SAME1 means the message of this unit is the same as last unit, "" means don't show any message
+    message_set += ["1SAME1"] * 40; message_set += [""] * 3;
+    #1SAME1 means the message of this unit is the same as last unit (repeated 30 times so that it is easier to be sampled), "" means don't show any message
 
     for t in range(20):
         save_d = {} # make sure all values are strings
@@ -81,18 +82,18 @@ if __name__ == "__main__":
         save_d["BackEndMessage"] = "Back End Step: {}".format(t)
         for npc in npcs:
             if t == 0:
-                item = map.getRandItem(closeto_c = ADMIN_cxy, closeto_dis = 50.0)
+                item = map.getRandItem(closeto_c = ADMIN_cxy, closeto_dis = 30.0)
                 npc.tile_cur = map.getCloseTile(item.cxy, add_random = True);
                 npc.item_cur = item;
 
             #here, we assume all npc stays at the center of a tile, but this is not necessary
             path_l = [npc.tile_cur.cxy] #the first unit is just to set the starting position of each agent
-            mes_l = ["step {} item: {}".format(t, npc.item_cur.name)] #all message can be anything
+            mes_l = ["step {} start".format(t)] #message can be anything
             if t > 0:
-                item_next = map.getRandItem(closeto_c = npc.tile_cur.cxy, closeto_dis = 50.0)
+                item_next = map.getRandItem(closeto_c = npc.tile_cur.cxy, closeto_dis = 60.0)
                 print(npc.name, item_next.name, item_next.sec_name)
                 tile_next = map.getCloseTile(item_next.cxy, add_random = True);
-                path_l = map.getPath(npc.tile_cur.cxy, tile_next.cxy)
+                path_l = map.getPath(npc.tile_cur.cxy, tile_next.cxy, add_random = True)
 
                 mes_set_cur = message_set + ["Item " + item_next.name] * 3 + ["Going to area " + item_next.area_name] * 3 + ["Going to sector " + item_next.sec_name] * 3
                 for mk in range(1, len(path_l)):
@@ -108,6 +109,8 @@ if __name__ == "__main__":
             sll = ["{:.3f}_{:.3f}".format(k[0], k[1]) for k in path_l]
             save_d[npc.name + ":Path"] = ','.join(sll)
             save_d[npc.name + ":SpeedMul"] = "2.0"; #use this to change the movement speed in the front end
+            if (len(path_l) > 50):
+                save_d[npc.name + ":SpeedMul"] = "4.0";
             save_d[npc.name + ":Message"] = "_|||_".join(mes_l); #i just want to use a special splitter for the message strings
         fn = "backend_{}.json".format(t)
 
