@@ -12,6 +12,8 @@ I'll be happy to answer questions.
 
 Author: Tianxing He (https://cloudygoose.github.io/)
 
+Apr 10 2024: Online dialogue with agents in the game is now supported.
+
 ## Quick start
 
 **Important: Please download this repo to the path ~/Documents/MiniAgents** . I'm sorry for the inconvenience, somehow it is hard for a unity-complied game to get its current path.
@@ -40,6 +42,22 @@ To generate another trajectory, go to minimal/ and run
 > python backend.py --clear_dir
 
 I put a lot of comments in backend.py to explain things. 
+
+## Online dialogue with agents
+
+If you run things in **online** mode, you will be able to communicate with the backend when agents are idle.
+
+Go to minimal, run
+
+>python backend.py --step_wait 1 --clear_dir --online
+
+Now the backend will wait for messages from the frontend before generating new steps.
+
+Now open the game, press Esc to go the main menu and check the "online" toggle. Below is an example:
+
+<img src="./figs/agentdialogue.gif" width="600">
+
+The messages are handled and responded by the python backend.
 
 ## Map editting
 

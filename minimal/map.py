@@ -177,6 +177,7 @@ class Map:
             area.item_l.append(item); self.item_l.append(item);
             area_found = True
             logger.info("item %s belongs to area %s, sector %s", item_name, area.name, area.sec_name)
+        #print(item_name, posl)
         assert(area_found)
 
     logger.info("loaded %d sectors, %d areas, %d items", len(self.sector_l), len(self.area_l), len(self.item_l))
