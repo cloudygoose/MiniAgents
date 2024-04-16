@@ -4,13 +4,15 @@
 
 The MiniAgents visualization tool for simulacra.
 
-Currently only Mac is supported. The project is still work-in-progress (like a 0.5 version), I'm releasing this version because it's already functional.
+I currently work on Mac, but will add support for windows. The project is still work-in-progress (like a 0.5 version), I'm releasing this version because it's already functional.
 
 Disclaimer: So far there is no novelty related to NLP research in this project, it is a tool and not a paper. It is motivated by the "Generative Agents: Interactive Simulacra of Human Behavior" paper.
 
 I'll be happy to answer questions.
 
 Author: Tianxing He (https://cloudygoose.github.io/)
+
+Apr 15 2024: A runnable windows version is uploaded, the root dir should be C:\Users\Username\MiniAgents (the game will show you the root path when it runs). But the backend python files are currently only tested on Mac (but should not be hard to migrate to windows).
 
 Apr 10 2024: Online dialogue with agents in the game is now supported.
 
@@ -47,7 +49,7 @@ I put a lot of comments in backend.py to explain things.
 
 If you run things in **online** mode, you will be able to communicate with the backend when agents are idle.
 
-Go to minimal, run
+Go to minimal, run (do not forget the clear_dir option)
 
 >python backend.py --step_wait 1 --clear_dir --online
 
