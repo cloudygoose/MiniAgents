@@ -1,0 +1,22 @@
+{
+    "NPCNames": "Minnie Bradley_Mickey Jackson_Klaus Mueller_Lu Mi_Coco Reese_Adam Liu",
+    "BackEndMessage": "2023-02-14 02:00:00\nBack End Step: 19",
+    "Minnie Bradley:Path": "43.500_78.500,44.500_78.500,44.500_77.500,44.500_76.500",
+    "Minnie Bradley:SpeedMul": "2.4696737714746315",
+    "Minnie Bradley:Message": "sleeping._|||_1SAME1_|||_1SAME1_|||_1SAME1",
+    "Mickey Jackson:Path": "18.500_77.500,18.500_77.500",
+    "Mickey Jackson:SpeedMul": "2.6019558689079894",
+    "Mickey Jackson:Message": "going to bed._|||_1SAME1",
+    "Klaus Mueller:Path": "54.500_77.500,54.500_77.500",
+    "Klaus Mueller:SpeedMul": "2.3867296098611117",
+    "Klaus Mueller:Message": "sleeping._|||_1SAME1",
+    "Lu Mi:Path": "33.500_73.500,32.500_73.500,31.500_73.500,31.500_74.500,31.500_75.500,31.500_76.500,30.500_76.500,29.500_76.500,29.500_77.500",
+    "Lu Mi:SpeedMul": "2.0952378966132374",
+    "Lu Mi:Message": "sleeping._|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1",
+    "Coco Reese:Path": "8.500_77.500,8.500_78.500",
+    "Coco Reese:SpeedMul": "2.1358972617279837",
+    "Coco Reese:Message": "sleeping._|||_1SAME1",
+    "Adam Liu:Path": "44.500_101.500,45.500_101.500,46.500_101.500,47.500_101.500,47.500_100.500,47.500_99.500",
+    "Adam Liu:SpeedMul": "2.40953039736631",
+    "Adam Liu:Message": "working._|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1"
+}

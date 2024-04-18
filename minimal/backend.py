@@ -3,17 +3,19 @@ import struct
 import traceback
 import logging
 import time
-import os, random
+import os, random, sys
 from copy import deepcopy
 
 import json
 
-from map import Map
-from comm import Comm
-
 import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s: %(message)s')
 logger = logging.getLogger()
+
+sys.path.append("../shared/")
+
+from map import Map
+from comm import Comm
 
 from my_utils import MyTimer, MyStruct, helper_clear_path
 import argparse
@@ -25,7 +27,7 @@ if __name__ == "__main__":
                         description='What the program does',
                         epilog='Text at the bottom of help')
 
-    parser.add_argument('--path', default ='../run0/') 
+    parser.add_argument('--path', default ='../runs/minimal_run0/') 
     parser.add_argument('--map_path', default='../')
     parser.add_argument('--online', action='store_true') #in this case, the back end will wait the front end to interact
     parser.add_argument('--clear_dir', action='store_true') #remove files already in the dir, useful if you are doing online communication with the unity front end

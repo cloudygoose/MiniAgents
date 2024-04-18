@@ -1,0 +1,22 @@
+{
+    "NPCNames": "Minnie Bradley_Mickey Jackson_Klaus Mueller_Lu Mi_Coco Reese_Adam Liu",
+    "BackEndMessage": "2023-02-13 08:00:00\nBack End Step: 1",
+    "Minnie Bradley:Path": "45.500_51.500,45.500_52.500,46.500_52.500,47.500_52.500,48.500_52.500,49.500_52.500,50.500_52.500,50.500_53.500,51.500_53.500,52.500_53.500,53.500_53.500,54.500_53.500",
+    "Minnie Bradley:SpeedMul": "2.364366625211638",
+    "Minnie Bradley:Message": "preparing for the day at the Market._|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1",
+    "Mickey Jackson:Path": "19.500_77.500,18.500_77.500,18.500_78.500",
+    "Mickey Jackson:SpeedMul": "2.1378205021980925",
+    "Mickey Jackson:Message": "waking up and getting ready for the day._|||_1SAME1_|||_1SAME1",
+    "Klaus Mueller:Path": "54.500_77.500,55.500_77.500,56.500_77.500,56.500_76.500,56.500_75.500,56.500_74.500,56.500_73.500,56.500_72.500,56.500_71.500,56.500_70.500,55.500_70.500,54.500_70.500",
+    "Klaus Mueller:SpeedMul": "2.277152262177947",
+    "Klaus Mueller:Message": "eating breakfast._|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1",
+    "Lu Mi:Path": "30.500_73.500,31.500_73.500,31.500_72.500,31.500_71.500,31.500_70.500,30.500_70.500,29.500_70.500",
+    "Lu Mi:SpeedMul": "2.417215259323938",
+    "Lu Mi:Message": "having breakfast._|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1",
+    "Coco Reese:Path": "7.500_77.500,8.500_77.500,9.500_77.500,9.500_76.500,9.500_75.500,9.500_74.500,9.500_73.500,9.500_72.500,9.500_71.500,9.500_70.500,8.500_70.500",
+    "Coco Reese:SpeedMul": "2.638593355123627",
+    "Coco Reese:Message": "preparing for work._|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1",
+    "Adam Liu:Path": "44.500_94.500,43.500_94.500",
+    "Adam Liu:SpeedMul": "2.0893306663978946",
+    "Adam Liu:Message": "cooking breakfast at home._|||_1SAME1"
+}

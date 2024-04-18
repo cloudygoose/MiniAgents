@@ -1,0 +1,22 @@
+{
+    "NPCNames": "Minnie Bradley_Mickey Jackson_Klaus Mueller_Lu Mi_Coco Reese_Adam Liu",
+    "BackEndMessage": "2023-02-14 00:00:00\nBack End Step: 17",
+    "Minnie Bradley:Path": "43.500_77.500,43.500_78.500",
+    "Minnie Bradley:SpeedMul": "2.297358536984226",
+    "Minnie Bradley:Message": "sleeping._|||_1SAME1",
+    "Mickey Jackson:Path": "18.500_73.500,19.500_73.500,20.500_73.500,20.500_74.500,20.500_75.500,20.500_76.500,19.500_76.500,18.500_76.500",
+    "Mickey Jackson:SpeedMul": "2.7053442961303227",
+    "Mickey Jackson:Message": "streaming games on Twitch._|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1",
+    "Klaus Mueller:Path": "54.500_76.500,55.500_76.500,55.500_77.500",
+    "Klaus Mueller:SpeedMul": "2.7847772916553577",
+    "Klaus Mueller:Message": "sleeping._|||_1SAME1_|||_1SAME1",
+    "Lu Mi:Path": "20.500_55.500,20.500_54.500,20.500_53.500,21.500_53.500,22.500_53.500,23.500_53.500,24.500_53.500,25.500_53.500,26.500_53.500,27.500_53.500,27.500_54.500,27.500_55.500,27.500_56.500,27.500_57.500,27.500_58.500,27.500_59.500,27.500_60.500,27.500_61.500,28.500_61.500,29.500_61.500,30.500_61.500,31.500_61.500,32.500_61.500,32.500_62.500,32.500_63.500,32.500_64.500,32.500_65.500,32.500_66.500,32.500_67.500,32.500_68.500,31.500_68.500,31.500_69.500,31.500_70.500,31.500_71.500,31.500_72.500,31.500_73.500,31.500_74.500,31.500_75.500,31.500_76.500,30.500_76.500,30.500_77.500",
+    "Lu Mi:SpeedMul": "2.450930717848313",
+    "Lu Mi:Message": "sleeping at this time._|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1_|||_1SAME1",
+    "Coco Reese:Path": "7.500_77.500,7.500_77.500",
+    "Coco Reese:SpeedMul": "2.2212337226109637",
+    "Coco Reese:Message": "sleeping._|||_1SAME1",
+    "Adam Liu:Path": "44.500_101.500,44.500_101.500",
+    "Adam Liu:SpeedMul": "2.7323568458578458",
+    "Adam Liu:Message": "sleeping._|||_1SAME1"
+}

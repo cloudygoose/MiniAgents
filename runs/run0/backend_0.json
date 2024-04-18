@@ -1,0 +1,22 @@
+{
+    "NPCNames": "Minnie Bradley_Mickey Jackson_Klaus Mueller_Lu Mi_Coco Reese_Adam Liu",
+    "BackEndMessage": "2023-02-13 07:00:00\nBack End Step: 0",
+    "Minnie Bradley:Path": "45.500_51.500",
+    "Minnie Bradley:SpeedMul": "2.4552897439046366",
+    "Minnie Bradley:Message": "waking up and starting her day at the Market.",
+    "Mickey Jackson:Path": "19.500_77.500",
+    "Mickey Jackson:SpeedMul": "2.1797575258872617",
+    "Mickey Jackson:Message": "waking up and getting ready for the day.",
+    "Klaus Mueller:Path": "54.500_77.500",
+    "Klaus Mueller:SpeedMul": "2.7606577723724257",
+    "Klaus Mueller:Message": "waking up and getting ready for the day.",
+    "Lu Mi:Path": "30.500_73.500",
+    "Lu Mi:SpeedMul": "2.236805754367919",
+    "Lu Mi:Message": "having breakfast.",
+    "Coco Reese:Path": "7.500_77.500",
+    "Coco Reese:SpeedMul": "2.219092548493629",
+    "Coco Reese:Message": "waking up and getting ready for work at 7am.",
+    "Adam Liu:Path": "44.500_94.500",
+    "Adam Liu:SpeedMul": "2.2401866501434298",
+    "Adam Liu:Message": "cooking breakfast at home."
+}
